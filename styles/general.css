@@ -1,0 +1,17 @@
+/* * GENERAL STYLE RULES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* * COMMON STYLE RULES */
+
+img {
+  width: 100%;
+}
