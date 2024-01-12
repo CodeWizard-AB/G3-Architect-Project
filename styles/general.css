@@ -50,3 +50,9 @@ img {
 	letter-spacing: 0.5px;
 	margin: 2rem 0 3rem;
 }
+
+.secondary--heading {
+  font-size: 3.6rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
