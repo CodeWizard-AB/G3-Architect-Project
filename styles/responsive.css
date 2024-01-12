@@ -60,7 +60,7 @@
 	}
 
 	.features_container {
-		flex-direction: column;
+		flex-direction: column-reverse;
 	}
 
 	.feautures_container__content {
@@ -121,4 +121,25 @@
 	.sponsors_container__figures img:nth-child(5) {
 		grid-column: auto / span 2;
 	}
+
+	.features_container {
+		flex-direction: column-reverse;
+		align-items: center;
+		gap: 14rem;
+	}
+
+	.feautures_container__content {
+		width: 70%;
+	}
+
+	.highlight {
+		bottom: 0%;
+		left: 50%;
+		width: 60%;
+		transform: translate(-50%, 50%);
+	}
+
+	.highlight span {
+		font-size: 2.4rem;
+	}s
 }
