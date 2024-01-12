@@ -1,17 +1,52 @@
 /* * GENERAL STYLE RULES */
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
-  font-size: 62.5%;
+	font-size: 62.5%;
+	font-family: "Work Sans", sans-serif;
+	color: #131313;
+}
+
+button {
+	background: none;
+	border: none;
+	cursor: pointer;
 }
 
 /* * COMMON STYLE RULES */
 
 img {
-  width: 100%;
+	width: 100%;
+}
+
+.container {
+	width: 75%;
+	max-width: 114rem;
+	margin: 0 auto;
+	padding: 0 3.2rem;
+}
+
+.btn {
+	background-color: #ff900e;
+	border: none;
+	border-radius: 0.5rem;
+	padding: 1.6rem 2.4rem;
+	font-size: 1.6rem;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 3rem;
+	cursor: pointer;
+}
+
+.summary--content {
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+	margin: 2rem 0 3rem;
 }

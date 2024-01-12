@@ -1,0 +1,50 @@
+/* * MOBILE DEVICE / TAP */
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 100%;
+	}
+
+	.nav_container__links li {
+		display: none;
+	}
+
+  .nav_container h2 {
+    font-size: 2.8rem;
+  }
+
+	.nav_container__btn {
+		display: block;
+	}
+
+	.banner_container {
+		align-items: flex-start;
+	}
+
+	.banner {
+		padding: 3rem 0;
+	}
+
+	.banner_container__content {
+		padding: 0;
+		text-align: left;
+	}
+
+	.banner_container__content h1 {
+		font-size: 4rem;
+	}
+}
+
+/* * LAPTOP / TABLET */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+  .container {
+    width: 100%;
+  }
+
+  .nav_container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
